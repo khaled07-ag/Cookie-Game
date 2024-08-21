@@ -38,3 +38,8 @@ code {
   to { height: 290px;
     width: 290px;;}
 }
+.buy-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
