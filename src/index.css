@@ -24,9 +24,9 @@ code {
   width: 300px;
   border: 50px;
   border-radius: 200px;
-  background-color: beige;
-  /* animation-name: example;
-  animation-duration: 1s; */
+  background-color:beige;
+  animation-name: example;
+  animation-duration: 1s;
 }
 .button-anim{
   animation-name: example;
