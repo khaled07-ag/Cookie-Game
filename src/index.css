@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
 }
 
 code {
@@ -15,5 +16,25 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   
+}
+.pic{
+  height: 300px;
+  width: 300px;
+  border: 50px;
+  border-radius: 200px;
+  background-color: beige;
+  /* animation-name: example;
+  animation-duration: 1s; */
+}
+.button-anim{
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example {
+  from { height: 300px;
+    width: 300px;;}
+  to { height: 290px;
+    width: 290px;;}
 }
