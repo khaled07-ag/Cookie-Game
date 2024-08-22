@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 const Header = () => {
     //let i = 1;
-    let m = 1;
+    // let m = 1;
     const [i,setI]=useState(1);
     const [counter,setCounter] = useState(0);
     const handleClick = ()=> {
