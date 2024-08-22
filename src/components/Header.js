@@ -20,7 +20,7 @@ const Header = () => {
     const handleMoney = ()=>{
       
       setMoney(money-5);
-      seI(i+1);
+      setI(i+1);
      }
     
      
@@ -40,7 +40,9 @@ const Header = () => {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
             ><img className='pic' src={image} alt='pic' /></motion.div>
-            {money>=5  && <button onClick={handleMoney}>Buy Me</button>}
+            <div>
+            {money>=5  && <button  onClick={handleMoney}>Buy Me</button>}
+            </div>
         </div>
       )
 }
