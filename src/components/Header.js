@@ -22,7 +22,7 @@ const Header = () => {
     const handleMoney = ()=>{
       
       setMoney(money-5);
-      
+      i=i+1;
      }
     
      if( money >= 5){
@@ -44,7 +44,7 @@ const Header = () => {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
             ><img className='pic' src={image} alt='pic' /></motion.div>
-            {m>=5  && <button onClick={handleMoney}>Display</button>}
+            {money>=5  && <button onClick={handleMoney}>Buy Me</button>}
         </div>
       )
 }
