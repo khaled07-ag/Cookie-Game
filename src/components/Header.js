@@ -5,9 +5,9 @@ import image from './cookie.png'
 import { motion } from "framer-motion"
 
 const Header = () => {
-    let i = 1;
+    //let i = 1;
     let m = 1;
-   
+    const [i,setI]=useState(1);
     const [counter,setCounter] = useState(0);
     const handleClick = ()=> {
         setCounter(counter+i);
@@ -20,7 +20,7 @@ const Header = () => {
     const handleMoney = ()=>{
       
       setMoney(money-5);
-      i=i+1;
+      seI(i+1);
      }
     
      
@@ -31,7 +31,7 @@ const Header = () => {
       return (
         <div className='button'>
             <h1> Cookies {counter}</h1>
-            <h2>{money}</h2>
+            <h2>${money}</h2>
             <motion.div
             onClick={handleClick}
             
