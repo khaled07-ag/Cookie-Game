@@ -31,7 +31,7 @@ const Header = () => {
       return (
         <div className='button'>
             <h1> Cookies {counter}</h1>
-            <h2>${money}</h2>
+            <h2> Money {money}</h2>
             <motion.div
             onClick={handleClick}
             
