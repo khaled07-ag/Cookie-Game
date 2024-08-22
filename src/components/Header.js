@@ -13,9 +13,7 @@ const Header = () => {
         setCounter(counter+i);
         setMoney(money+m)
     }
-    if( counter >= 5){
-      i = i +1;
-    }
+    
     
       
     const [money, setMoney] = useState(0)
@@ -25,9 +23,7 @@ const Header = () => {
       i=i+1;
      }
     
-     if( money >= 5){
-      m = m +1;
-    }
+     
   
     
     
