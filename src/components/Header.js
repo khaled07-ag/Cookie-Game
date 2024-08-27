@@ -41,7 +41,7 @@ const Header = () => {
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
             ><img className='pic' src={image} alt='pic' /></motion.div>
             <div>
-            {money>=5  && <button  onClick={handleMoney}>Buy Me</button>}
+            {money>=5  && <button className='buy-container' onClick={handleMoney}>Buy Me</button>}
             </div>
         </div>
       )

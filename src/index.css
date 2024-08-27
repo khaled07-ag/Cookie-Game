@@ -25,21 +25,13 @@ code {
   border: 50px;
   border-radius: 200px;
   background-color:beige;
-  animation-name: example;
-  animation-duration: 1s;
+  
 }
-.button-anim{
-  animation-name: example;
-  animation-duration: 1s;
-}
-@keyframes example {
-  from { height: 300px;
-    width: 300px;;}
-  to { height: 290px;
-    width: 290px;;}
-}
+
+
 .buy-container{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  margin:  20px;
 }
